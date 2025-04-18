@@ -43,4 +43,5 @@ jobs:
       - name: Run root work 
         run:  echo Root workflow which use any where
       - id: greeting
-        run: echo "::set-output name=message::Hello"
+        # run: echo "::set-output name=message::Hello" this depreciated
+        run : echo new partie >> $GITHUB_OUTPUT
