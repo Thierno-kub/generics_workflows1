@@ -28,3 +28,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a child two CI
         run: echo Child two wait his root to work!
+      
+      # using workflow root
+      - name: My workflow call
+        uses: ./.devops/root_pipeline.yml
+        with:
+          name: 'Youger'

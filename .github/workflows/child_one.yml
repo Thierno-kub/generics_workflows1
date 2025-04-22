@@ -22,4 +22,4 @@ jobs:
       - name: Run a child one workflow
         run: echo Child one want to call her root!
   useWorkflowRoot:
-    uses: ./.github/workflows/root_pipeline.yml
+    uses: ./.devops/root_pipeline.yml
