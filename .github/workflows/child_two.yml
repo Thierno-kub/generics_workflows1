@@ -29,9 +29,7 @@ jobs:
       - name: Run a child two CI
         run: echo Child two wait his root to work!
       
-      # using workflow root
-      - uses: ./.github/workflows/root_pipeline.yml
   useWorkflowRoot:
-    uses: ./.github/workflows/root_pipeline.yml
+    uses: ./.github/workflows/.devops/root_pipeline.yml
      #   with:
       #      name: 'Youger'
