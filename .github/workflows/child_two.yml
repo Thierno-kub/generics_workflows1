@@ -30,6 +30,6 @@ jobs:
         run: echo Child two wait his root to work!
       
       # using workflow root
-      - uses: ./.github/workflows/.devops/root_workflow.yml
+      - uses: ./.github/workflows/root_workflow.yml
         with:
           name: 'Youger'
