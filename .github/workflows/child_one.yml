@@ -21,6 +21,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a child one workflow
         run: echo Child one want to call her root!
-
-      - uses: ./.github/workflows/root_workflow.yml
-    
+  useWorkflowRoot:
+    uses: ./.github/workflows/root_pipeline.yml
