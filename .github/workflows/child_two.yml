@@ -31,5 +31,7 @@ jobs:
       
       # using workflow root
       - uses: ./.github/workflows/root_pipeline.yml
+  useWorkflowRoot:
+    uses: ./.github/workflows/root_pipeline.yml
      #   with:
       #      name: 'Youger'
