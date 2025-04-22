@@ -30,7 +30,6 @@ jobs:
         run: echo Child two wait his root to work!
       
       # using workflow root
-      - name: My workflow call
-        uses: ./.devops/root_pipeline.yml
+      - uses: ./.devops/root_pipeline.yml@main
         with:
           name: 'Youger'
